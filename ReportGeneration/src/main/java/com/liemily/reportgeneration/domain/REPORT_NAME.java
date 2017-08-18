@@ -1,4 +1,4 @@
-package com.liemily.reportgeneration.reports;
+package com.liemily.reportgeneration.domain;
 
 /**
  * Created by Emily Li on 18/08/2017.

@@ -1,7 +1,7 @@
-package com.liemily.reportgeneration;
+package com.liemily.reportgeneration.domain;
 
-import com.liemily.reportgeneration.reports.FILE_TYPE;
-import com.liemily.reportgeneration.reports.REPORT_NAME;
+import com.liemily.reportgeneration.domain.FILE_TYPE;
+import com.liemily.reportgeneration.domain.REPORT_NAME;
 import org.springframework.data.domain.Sort;
 
 /**

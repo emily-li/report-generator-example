@@ -1,4 +1,4 @@
-package com.liemily.reportgeneration.reports.domain;
+package com.liemily.reportgeneration.domain;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
