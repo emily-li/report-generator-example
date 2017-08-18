@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Collection;
+import java.util.List;
 
 /**
  * Created by Emily Li on 23/07/2017.
@@ -53,7 +54,7 @@ public class StockService {
     }
 
     @Transactional(readOnly = true)
-    public Collection<Stock> getStocks(Sort sort) {
+    public List<Stock> getStocks(Sort sort) {
         return stockRepository.findAll(sort);
     }
 }
